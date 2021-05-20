@@ -36,12 +36,6 @@ public class StartController {
 		return "start";
 	}
 	
-	@RequestMapping(value = "/res1")
-	@ResponseBody
-	public String res1(@RequestParam("userId") String userId, 
-	           HttpServletRequest request, HttpServletResponse response) {
-			System.out.println("userId "+userId);
-		return userId;
-	}
+	
 	
 }
